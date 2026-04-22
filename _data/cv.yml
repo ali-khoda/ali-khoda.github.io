@@ -120,11 +120,6 @@ cv:
           - FastAPI
           - Gradio
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
     Certificates:
       - name: Deep Learning Specialization
         date: 2022-10-01
