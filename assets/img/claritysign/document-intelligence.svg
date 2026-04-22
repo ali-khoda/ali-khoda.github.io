@@ -1,0 +1,52 @@
+<svg width="800" height="533" viewBox="0 0 800 533" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="95" y1="70" x2="706" y2="467" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6F8FB"/>
+      <stop offset="1" stop-color="#E9F0F3"/>
+    </linearGradient>
+    <linearGradient id="core" x1="516" y1="172" x2="632" y2="352" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20384B"/>
+      <stop offset="1" stop-color="#2E6671"/>
+    </linearGradient>
+    <filter id="shadow" x="104" y="84" width="592" height="376" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#173446" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="533" rx="24" fill="url(#bg)"/>
+  <circle cx="168" cy="124" r="99" fill="#DDE9EF" fill-opacity="0.46"/>
+  <circle cx="646" cy="412" r="118" fill="#E2ECE8" fill-opacity="0.5"/>
+
+  <g filter="url(#shadow)">
+    <rect x="128" y="106" width="544" height="324" rx="28" fill="white"/>
+  </g>
+
+  <rect x="168" y="145" width="191" height="11" rx="5.5" fill="#243B4C" fill-opacity="0.16"/>
+  <rect x="372" y="145" width="84" height="11" rx="5.5" fill="#243B4C" fill-opacity="0.08"/>
+  <rect x="168" y="178" width="143" height="10" rx="5" fill="#243B4C" fill-opacity="0.1"/>
+  <rect x="322" y="178" width="121" height="10" rx="5" fill="#243B4C" fill-opacity="0.08"/>
+
+  <rect x="168" y="215" width="114" height="30" rx="15" fill="#8FD2C2" fill-opacity="0.3"/>
+  <text x="189" y="235" fill="#25544D" fill-opacity="0.92" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Party Name</text>
+  <rect x="293" y="215" width="88" height="30" rx="15" fill="#F0C987" fill-opacity="0.34"/>
+  <text x="315" y="235" fill="#7A5826" fill-opacity="0.92" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Amount</text>
+  <rect x="392" y="215" width="72" height="30" rx="15" fill="#A7D8F3" fill-opacity="0.34"/>
+  <text x="414" y="235" fill="#2A5876" fill-opacity="0.92" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Date</text>
+
+  <rect x="168" y="266" width="278" height="58" rx="18" fill="#D9E9F2" fill-opacity="0.42"/>
+  <rect x="182" y="283" width="109" height="9" rx="4.5" fill="#2A5876" fill-opacity="0.18"/>
+  <rect x="182" y="301" width="175" height="9" rx="4.5" fill="#2A5876" fill-opacity="0.12"/>
+  <path d="M461 294H499" stroke="#8FD2C2" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 8"/>
+
+  <rect x="168" y="344" width="186" height="10" rx="5" fill="#243B4C" fill-opacity="0.11"/>
+  <rect x="364" y="344" width="101" height="10" rx="5" fill="#243B4C" fill-opacity="0.07"/>
+
+  <rect x="520" y="172" width="112" height="176" rx="28" fill="url(#core)"/>
+  <rect x="541" y="194" width="70" height="132" rx="18" fill="#F5FBFC" fill-opacity="0.1"/>
+  <circle cx="576" cy="229" r="18" fill="#F5FBFC" fill-opacity="0.13"/>
+  <circle cx="566" cy="229" r="4.5" fill="#F5FBFC"/>
+  <circle cx="586" cy="229" r="4.5" fill="#F5FBFC"/>
+  <path d="M561 247C565 243 570 241 576 241C582 241 587 243 591 247" stroke="#F5FBFC" stroke-width="4" stroke-linecap="round"/>
+  <rect x="550" y="274" width="52" height="10" rx="5" fill="#F5FBFC" fill-opacity="0.5"/>
+  <rect x="550" y="292" width="42" height="10" rx="5" fill="#F5FBFC" fill-opacity="0.28"/>
+</svg>

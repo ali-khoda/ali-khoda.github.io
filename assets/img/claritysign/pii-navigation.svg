@@ -1,0 +1,61 @@
+<svg width="800" height="533" viewBox="0 0 800 533" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="104" y1="72" x2="697" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F7FA"/>
+      <stop offset="1" stop-color="#E8EFF3"/>
+    </linearGradient>
+    <linearGradient id="sidebar" x1="140" y1="120" x2="282" y2="401" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20384B"/>
+      <stop offset="1" stop-color="#284D63"/>
+    </linearGradient>
+    <filter id="cardShadow" x="106" y="84" width="588" height="376" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#1A3648" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="533" rx="24" fill="url(#bg)"/>
+  <circle cx="644" cy="120" r="104" fill="#DDE8EF" fill-opacity="0.44"/>
+  <circle cx="156" cy="420" r="118" fill="#E2ECE8" fill-opacity="0.5"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="128" y="106" width="544" height="324" rx="28" fill="white"/>
+  </g>
+
+  <rect x="146" y="124" width="144" height="288" rx="24" fill="url(#sidebar)"/>
+  <rect x="166" y="151" width="96" height="12" rx="6" fill="#F5FBFC" fill-opacity="0.18"/>
+  <rect x="166" y="194" width="86" height="30" rx="15" fill="#8FD2C2" fill-opacity="0.24"/>
+  <text x="184" y="214" fill="#F2FBFC" fill-opacity="0.95" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Names</text>
+  <rect x="166" y="239" width="84" height="30" rx="15" fill="#F0C987" fill-opacity="0.3"/>
+  <text x="184" y="259" fill="#FFF7E6" fill-opacity="0.96" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Money</text>
+  <rect x="166" y="284" width="74" height="30" rx="15" fill="#A7D8F3" fill-opacity="0.28"/>
+  <text x="184" y="304" fill="#F2FAFE" fill-opacity="0.96" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Dates</text>
+  <rect x="166" y="329" width="92" height="30" rx="15" fill="#E6EEF4" fill-opacity="0.18"/>
+  <text x="184" y="349" fill="#F2FBFC" fill-opacity="0.9" font-size="15" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Addresses</text>
+
+  <rect x="321" y="150" width="210" height="11" rx="5.5" fill="#223A4D" fill-opacity="0.16"/>
+  <rect x="546" y="150" width="70" height="11" rx="5.5" fill="#223A4D" fill-opacity="0.08"/>
+  <rect x="321" y="183" width="147" height="10" rx="5" fill="#223A4D" fill-opacity="0.1"/>
+  <rect x="477" y="183" width="111" height="10" rx="5" fill="#223A4D" fill-opacity="0.08"/>
+
+  <rect x="321" y="216" width="108" height="32" rx="16" fill="#8FD2C2" fill-opacity="0.3"/>
+  <text x="343" y="237" fill="#25544D" fill-opacity="0.92" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Alice Roe</text>
+  <path d="M296 232H314" stroke="#8FD2C2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M289 232L299 224V240L289 232Z" fill="#8FD2C2"/>
+
+  <rect x="321" y="264" width="97" height="32" rx="16" fill="#F0C987" fill-opacity="0.34"/>
+  <text x="343" y="285" fill="#7A5826" fill-opacity="0.92" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">$12,400</text>
+  <path d="M296 280H314" stroke="#F0C987" stroke-width="4" stroke-linecap="round"/>
+  <path d="M289 280L299 272V288L289 280Z" fill="#F0C987"/>
+
+  <rect x="321" y="312" width="104" height="32" rx="16" fill="#A7D8F3" fill-opacity="0.34"/>
+  <text x="343" y="333" fill="#2A5876" fill-opacity="0.92" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">02/14/26</text>
+  <path d="M296 328H314" stroke="#A7D8F3" stroke-width="4" stroke-linecap="round"/>
+  <path d="M289 328L299 320V336L289 328Z" fill="#A7D8F3"/>
+
+  <rect x="321" y="366" width="180" height="10" rx="5" fill="#223A4D" fill-opacity="0.11"/>
+  <rect x="510" y="366" width="96" height="10" rx="5" fill="#223A4D" fill-opacity="0.07"/>
+
+  <circle cx="608" cy="276" r="36" fill="#20384B"/>
+  <circle cx="608" cy="276" r="20" fill="#F7FBFC" fill-opacity="0.13"/>
+  <path d="M594 277L603 286L623 266" stroke="#F7FBFC" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
