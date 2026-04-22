@@ -1,0 +1,66 @@
+<svg width="800" height="533" viewBox="0 0 800 533" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="71" x2="710" y2="465" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F6F1"/>
+      <stop offset="1" stop-color="#EEF2F4"/>
+    </linearGradient>
+    <linearGradient id="core" x1="323" y1="170" x2="474" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#243847"/>
+      <stop offset="1" stop-color="#355D66"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="150" y1="266" x2="650" y2="266" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D59A57" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D59A57" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#4E9F93" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cardShadow" x="100" y="103" width="600" height="328" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#203240" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="533" rx="24" fill="url(#bg)"/>
+  <circle cx="166" cy="130" r="96" fill="#E7DDCF" fill-opacity="0.44"/>
+  <circle cx="636" cy="413" r="114" fill="#DCEAE7" fill-opacity="0.52"/>
+  <path d="M150 266H650" stroke="url(#glow)" stroke-width="96" stroke-linecap="round"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="122" y="125" width="556" height="284" rx="30" fill="white"/>
+  </g>
+
+  <rect x="154" y="165" width="172" height="204" rx="24" fill="#F5F1EA"/>
+  <rect x="474" y="165" width="172" height="204" rx="24" fill="#EEF5F3"/>
+  <rect x="329" y="148" width="142" height="238" rx="36" fill="url(#core)"/>
+  <rect x="352" y="170" width="96" height="194" rx="24" fill="#F8FBFC" fill-opacity="0.08"/>
+
+  <rect x="177" y="196" width="120" height="28" rx="14" fill="#2A3C4A" fill-opacity="0.1"/>
+  <text x="193" y="215" fill="#2A3C4A" fill-opacity="0.88" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">[person_1]</text>
+  <rect x="177" y="244" width="116" height="28" rx="14" fill="#355D66" fill-opacity="0.12"/>
+  <text x="193" y="263" fill="#294B52" fill-opacity="0.92" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">[email_1]</text>
+  <rect x="177" y="292" width="132" height="28" rx="14" fill="#D59A57" fill-opacity="0.18"/>
+  <text x="193" y="311" fill="#7C5125" fill-opacity="0.9" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">[account_1]</text>
+
+  <rect x="501" y="196" width="92" height="28" rx="14" fill="#263E4C" fill-opacity="0.08"/>
+  <text x="521" y="215" fill="#263E4C" fill-opacity="0.86" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">Alice</text>
+  <rect x="501" y="244" width="120" height="28" rx="14" fill="#4E9F93" fill-opacity="0.12"/>
+  <text x="521" y="263" fill="#285951" fill-opacity="0.9" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">name@...</text>
+  <rect x="501" y="292" width="126" height="28" rx="14" fill="#D59A57" fill-opacity="0.18"/>
+  <text x="521" y="311" fill="#7C5125" fill-opacity="0.9" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">AC-1024</text>
+
+  <circle cx="400" cy="242" r="34" fill="#F6FBFC" fill-opacity="0.12"/>
+  <circle cx="400" cy="242" r="11" fill="#F6FBFC"/>
+  <circle cx="375" cy="221" r="6" fill="#7EC3BE"/>
+  <circle cx="426" cy="221" r="6" fill="#D59A57"/>
+  <circle cx="375" cy="266" r="6" fill="#D59A57"/>
+  <circle cx="426" cy="266" r="6" fill="#7EC3BE"/>
+  <path d="M381 224L393 236" stroke="#F6FBFC" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M419 224L407 236" stroke="#F6FBFC" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M381 263L393 248" stroke="#F6FBFC" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+  <path d="M419 263L407 248" stroke="#F6FBFC" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M309 209H328" stroke="#4E9F93" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7"/>
+  <path d="M293 257H328" stroke="#4E9F93" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7"/>
+  <path d="M309 305H328" stroke="#4E9F93" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7"/>
+  <path d="M471 209H490" stroke="#D59A57" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7"/>
+  <path d="M471 257H490" stroke="#D59A57" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7"/>
+  <path d="M471 305H490" stroke="#D59A57" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 7"/>
+</svg>
