@@ -3,7 +3,7 @@ layout: page
 title: Secure LLM
 description: Chat with AI safely without exposing sensitive data.
 permalink: /projects/securellm/
-img: assets/img/securellm/redaction-shield.svg
+img: assets/img/securellm/abstract.jpg
 importance: 1
 category: work
 related_publications: false

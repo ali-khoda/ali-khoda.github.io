@@ -3,7 +3,7 @@ layout: page
 title: ClaritySign
 description: e-Signature platform with AI intelligence
 permalink: /projects/claritysign/
-img: assets/img/claritysign/document-intelligence.svg
+img: assets/img/claritysign/abstract.jpg
 importance: 2
 category: work
 related_publications: false
