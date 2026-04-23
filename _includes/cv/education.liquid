@@ -21,17 +21,17 @@
             {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% assign date = startDate | append: '-' | append: endDate %}
           {% else %}
             {% assign date = null %}
           {% endif %}
 
-          <table class="table-cv">
+          <table class="table-cv" style="width: 100%; table-layout: fixed;">
             <tbody>
               <tr>
                 <td>
                   {% if date %}
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: 96px; text-align: center; display: inline-block;">{{ date }}</span>
                   {% endif %}
                 </td>
               </tr>
@@ -41,12 +41,32 @@
               {% if location != '' %}
                 <tr>
                   <td>
-                    <p class="location">
+                    <p class="location" style="width: 96px; margin: 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 0.2rem; text-align: center;">
                       <i class="fa-solid fa-location-dot iconlocation"></i>
                       {{ location }}
                     </p>
                   </td>
                 </tr>
+              {% endif %}
+              {% assign institution_name = entry.institution | downcase %}
+              {% assign logo_path = '' %}
+              {% if institution_name contains 'sharif' %}
+                {% assign logo_path = '/assets/img/logos/sharif.png' %}
+              {% elsif institution_name contains 'texas' %}
+                {% assign logo_path = '/assets/img/logos/utexas.png' %}
+              {% endif %}
+              {% if logo_path != '' %}
+              <tr>
+                <td>
+                  <div style="width: 96px; margin: -0.1rem auto 0; display: flex; justify-content: center;">
+                    <img
+                      src="{{ logo_path | relative_url }}"
+                      alt="Institution logo"
+                      style="width: 44px; height: 44px; object-fit: contain; display: block;"
+                    >
+                  </div>
+                </td>
+              </tr>
               {% endif %}
             </tbody>
           </table>

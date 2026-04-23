@@ -9,18 +9,43 @@
         {% capture start_date %}
           {% if entry.date %}{{ entry.date }}{% endif %}
         {% endcapture %}
+        {% capture awarder_name %}
+          {% if entry.awarder %}{{ entry.awarder }}{% endif %}
+        {% endcapture %}
+        {% assign awarder_name = awarder_name | strip | downcase %}
+        {% assign logo_path = '' %}
+        {% if awarder_name contains 'epson' %}
+          {% assign logo_path = '/assets/img/logos/epson.png' %}
+        {% elsif awarder_name contains 'icassp' %}
+          {% assign logo_path = '/assets/img/logos/icassp.jpeg' %}
+        {% elsif awarder_name contains 'hicss' %}
+          {% assign logo_path = '/assets/img/logos/hicss.png' %}
+        {% endif %}
 
         {% if start_date != '' %}
-          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
-            <table class="table-cv">
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+            <table class="table-cv" style="width: 100%; table-layout: fixed;">
               <tbody>
                 <tr>
                   <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="width: 96px; text-align: center; display: inline-block;">
                       {{- start_date | split: '-' | slice: 0, 1 | join: '' -}}
                     </span>
                   </td>
                 </tr>
+                {% if logo_path != '' %}
+                  <tr>
+                    <td>
+                      <div style="width: 96px; margin: 0.1rem auto 0; display: flex; justify-content: center;">
+                        <img
+                          src="{{ logo_path | relative_url }}"
+                          alt="Award logo"
+                          style="width: 56px; height: 56px; object-fit: contain; display: block;"
+                        >
+                      </div>
+                    </td>
+                  </tr>
+                {% endif %}
               </tbody>
             </table>
           </div>

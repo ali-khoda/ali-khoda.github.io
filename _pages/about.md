@@ -32,21 +32,21 @@ Prior to that, I received my Ph.D. from the [Department of Electrical and Comput
 
 <ul class="education-list" style="list-style: none; padding-left: 0; margin-top: 0.5rem;">
   <li style="display: flex; align-items: center; margin-bottom: 0.9rem;">
-    <img src="{{ '/assets/img/utexas.png' | relative_url }}" alt="UT Austin" style="width: 44px; height: 44px; object-fit: contain; margin-right: 1rem; flex-shrink: 0;">
+    <img src="{{ '/assets/img/logos/utexas.png' | relative_url }}" alt="UT Austin" style="width: 44px; height: 44px; object-fit: contain; margin-right: 1rem; flex-shrink: 0;">
     <div style="display: flex; flex-direction: column; line-height: 1.3;">
       <span>Ph.D. in Electrical &amp; Computer Engineering</span>
       <span><a href="https://www.utexas.edu">The University of Texas at Austin</a></span>
     </div>
   </li>
   <li style="display: flex; align-items: center; margin-bottom: 0.9rem;">
-    <img src="{{ '/assets/img/utexas.png' | relative_url }}" alt="UT Austin" style="width: 44px; height: 44px; object-fit: contain; margin-right: 1rem; flex-shrink: 0;">
+    <img src="{{ '/assets/img/logos/utexas.png' | relative_url }}" alt="UT Austin" style="width: 44px; height: 44px; object-fit: contain; margin-right: 1rem; flex-shrink: 0;">
     <div style="display: flex; flex-direction: column; line-height: 1.3;">
       <span>M.S. in Electrical &amp; Computer Engineering</span>
       <span><a href="https://www.utexas.edu">The University of Texas at Austin</a></span>
     </div>
   </li>
   <li style="display: flex; align-items: center; margin-bottom: 0.9rem;">
-    <img src="{{ '/assets/img/sharif.png' | relative_url }}" alt="Sharif University of Technology" style="width: 44px; height: 44px; object-fit: contain; margin-right: 1rem; flex-shrink: 0;">
+    <img src="{{ '/assets/img/logos/sharif.png' | relative_url }}" alt="Sharif University of Technology" style="width: 44px; height: 44px; object-fit: contain; margin-right: 1rem; flex-shrink: 0;">
     <div style="display: flex; flex-direction: column; line-height: 1.3;">
       <span>B.S. in Electrical Engineering</span>
       <span><a href="https://www.sharif.edu">Sharif University of Technology</a></span>

@@ -13,7 +13,7 @@ cv:
   sections:
     Education:
       - institution: University of Texas at Austin
-        location: Austin, TX, USA
+        location: Austin, TX
         url: https://www.ece.utexas.edu/
         area: Electrical and Computer Engineering
         studyType: Ph.D.
@@ -22,7 +22,7 @@ cv:
         score: "4.0/4.0"
 
       - institution: University of Texas at Austin
-        location: Austin, TX, USA
+        location: Austin, TX
         url: https://www.ece.utexas.edu/
         area: Electrical and Computer Engineering
         studyType: M.S.
