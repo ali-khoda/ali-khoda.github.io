@@ -75,6 +75,13 @@ ninja.data = [{
           window.open("mailto:%61%6C%69.%6B%68@%75%74%65%78%61%73.%65%64%75", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/ali-khoda", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
