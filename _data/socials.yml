@@ -3,6 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 # cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 email: ali.kh@utexas.edu # your email address
+github_username: ali-khoda # your GitHub username (the part after github.com/ in your profile URL)
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: nAZP30gAAAAJ # your Google Scholar ID
